@@ -16,7 +16,7 @@ app.get("/", (req, res) => {
 });
 
 // قراءة جميع العناصر
-app.get("/test", (req, res) => {
+app.get("/api/items", (req, res) => {
   res.json(items);
 });
 
