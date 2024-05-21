@@ -1,24 +1,20 @@
 {
-  "name": "work",
+  "name": "your-project-name",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
-  "keywords": [],
-  "author": "",
-  "engines": {
-    "node": "21.7.3"
-  },
-  "license": "ISC",
   "dependencies": {
-    "dotenv": "^16.4.5",
-    "express": "^4.19.2"
+    "express": "^4.18.1",
+    "dotenv": "^8.2.0"
   },
   "devDependencies": {
-    "nodemon": "^3.1.0"
+    "nodemon": "^2.0.7"
+  },
+  "engines": {
+    "node": "20.x"
   }
 }
